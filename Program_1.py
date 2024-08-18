@@ -9,4 +9,4 @@ str_1=input("Enter the string\n").lower()
 substr=input("Enter the substring\n").lower()
 
 cnt=count_occurence(str_1, substr)
-print(f'The {substr.upper()} count is: {cnt}')
+print("The {} count is: {}".format(substr.upper(),cnt))
