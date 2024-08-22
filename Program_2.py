@@ -1,8 +1,3 @@
-# s1 = "Ynf"
-# s2 = "PYnative"
-
-# print(s1 in s2)
-
 # str1 = "Emma is a data scientist who knows Python. Emma works at google."
 #  Find the last position of a given substring
 
