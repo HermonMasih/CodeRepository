@@ -3,5 +3,6 @@
 
 str1 = "Emma is a data scientist who knows Python. Emma works at google."
 
-idx=str1.rindex("Emma")
-print(f'Last occurrence of Emma starts at index {idx}')
+substr=input("Enter the substring\n")
+idx=str1.rindex(substr)
+print("Last occurrence of {} starts at index {}".format(substr,idx))
